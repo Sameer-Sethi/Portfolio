@@ -7,7 +7,7 @@ import React from 'react'
 const Page = () => {
   return (
     <div
-      style={{ backgroundImage: "url(/mountains.jpg)" }}
+      style={{ backgroundImage: "url(/Mountains.jpg)" }}
       className="w-screen h-screen flex items-center justify-center bg-center bg-cover"
     >
       {/* Outer container stays centered and fills the screen */}
