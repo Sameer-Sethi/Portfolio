@@ -102,9 +102,9 @@ export const Socials = [
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "PrepsterAI",
+    text: "An AI-powered web platform that generates personalized mock interview questions and provides real-time feedback to help users prepare confidently for job interviews. Developed end-to-end, including design, AI integration, and deployment, to deliver a seamless and effective interview preparation experience.",
+    src: "/PrepsterAI.png",
   },
   {
     title: "NeuroExplain",
