@@ -20,15 +20,15 @@ const Navbar = () => {
       <div className='flex flex-row px-265 mb-2 gap-5'>
         {Socials.map((social) => (
           <Image
-    key={social.name}
-    src={social.src}
-    alt={social.name}
-    width={30}
-    height={30}
-    className="cursor-pointer hover:scale-110 transition-transform duration-300"
-    onClick={() => handleImageClick(social.link)}
-    style={{ display: 'inline-block' }}
-  />
+          key={social.name}
+          src={social.src}
+          alt={social.name}
+          width={30}
+          height={30}
+          className="cursor-pointer hover:scale-110 transition-transform duration-300"
+          onClick={() => handleImageClick(social.link)}
+          style={{ display: 'inline-block' }}
+          />
           
         ))}
       </div>
