@@ -87,17 +87,17 @@ export const Socials = [
   {
     name: "Linkedin",
     src: "/linkedin.svg",
-    Link: "https://www.linkedin.com/in/sameersethi30/"
+    link: "https://www.linkedin.com/in/sameersethi30/"
   },
   {
     name: "Github",
     src: "/github.svg",
-    Link: "https://github.com/Sameer-Sethi"
+    link: "https://github.com/Sameer-Sethi"
   },
   {
     name: "Instagram",
     src: "/instagram.svg",
-    Link: "https://www.instagram.com/sameer_sethi91/"
+    link: "https://www.instagram.com/sameer_sethi91/"
   },
 ];
 export const Projects = [
