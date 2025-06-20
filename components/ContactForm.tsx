@@ -11,10 +11,10 @@ const ContactForm = () => {
     if (!form.current) return;
 
     emailjs.sendForm(
-      'service_a4kdakx', // replace with your EmailJS service ID
-      'template_8hsigkn', // replace with your EmailJS template ID
+      process.env.NEXT_PUBLIC_SERVICE_ID as string, // replace with your EmailJS service ID
+      process.env.NEXT_PUBLIC_TEMPLATE_ID as string, // replace with your EmailJS template ID
       form.current,
-      'o3fuxaPeDg7GbupZR' // replace with your EmailJS public key
+      process.env.NEXT_PUBLIC_USER_ID as string // replace with your EmailJS public key
     ).then((result) => {
       alert("Message sent!");
       form.current?.reset();
