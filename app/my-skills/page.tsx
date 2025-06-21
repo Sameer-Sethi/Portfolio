@@ -12,7 +12,7 @@ const Page = () => {
       style={{ backgroundImage: "url(/bg-2.jpg)" }}
       className="h-screen w-screen flex items-center justify-center bg-cover bg-center"
     >
-      <div className="flex flex-col gap-15 max-w-[80%] text-center items-center">
+      <div className="flex flex-col gap-15 max-w-[75%] text-center items-center">
         <div className="flex flex-col items-center gap-5">
           <h1 className="font-semibold text-white text-[50px]">
             Skills{" "}
@@ -35,7 +35,7 @@ const Page = () => {
           }}
           speed={5000}
           modules={[Autoplay]}
-          className="max-w-[80%]"
+          className="max-w-[75%]"
         >
           {SkillData.map((skill, index) => (
             <SwiperSlide key={index}>
@@ -58,7 +58,7 @@ const Page = () => {
           }}
           speed={5000}
           modules={[Autoplay]}
-          className="max-w-[80%]"
+          className="max-w-[75%] bottom-5"
         >
           {SkillData.map((skill, index) => (
             <SwiperSlide key={index}>
