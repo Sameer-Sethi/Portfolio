@@ -17,7 +17,7 @@ const Page = () => {
           {/* Left: Headline */}
           <div className="flex-1">
             <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold text-[#14212A] leading-tight mb-4">
-              Let's make something<br className="hidden sm:block" />
+              Let&apos;s make something<br className="hidden sm:block" />
               amazing together.
             </h1>
             <h2 className="text-xl sm:text-2xl md:text-4xl font-bold text-[#14212A] mt-6">
