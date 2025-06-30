@@ -82,7 +82,7 @@ export default function Home() {
           </p>
           <div className='flex-col  md:flex-row hidden md:flex gap-5'>
             <Link href="/my-skills" className='rounded-[20px] group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg relative text-white max-w-[200px]'>
-              Learn More
+              My Tech-skills
             </Link>
             <Link href="/my-projects" className='rounded-[20px] group bg-blue-500 hover:bg-blue-400 px-5 py-3 text-lg relative text-white max-w-[200px]'>
               <div className='absolute rounded-[20px] z-[1] bg-white inset-0 opacity-0 group-hover: opacity-2'/>           
